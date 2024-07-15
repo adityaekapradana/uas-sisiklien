@@ -1,0 +1,445 @@
+/* app.css */
+
+/* Reset default margin and set font family */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f7fafc;
+}
+
+
+
+/* Flexbox setup for vertical centering */
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+/* Ensure minimum screen height */
+.min-h-screen {
+  min-height: 100vh;
+}
+
+/* Main background color */
+.bg-gray-100 {
+  background-color: #f7fafc;
+}
+
+/* Center align text */
+.text-center {
+  text-align: center;
+}
+
+/* Margin for the first paragraph */
+.mt-4 {
+  margin-top: 1rem;
+}
+
+/* Larger text size */
+.text-2xl {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #333;
+}
+
+/* Form styling */
+form {
+  max-width: 30rem;
+  width: 100%;
+  padding: 1rem;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+input[type='text'] {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+  margin-bottom: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+input[type='text']:focus {
+  outline: none;
+  border-color: #3490dc;
+}
+
+button[type='submit'] {
+  background-color: #3490dc;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type='submit']:hover {
+  background-color: #2779bd;
+}
+
+/* Table styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 2rem;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 0.75rem;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+/* Counter section */
+.space-x-4 {
+  margin-top: 1rem;
+}
+
+/* Navigation styling */
+nav ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  margin-right: 1rem;
+}
+
+nav ul li a {
+  color: #3490dc;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Additional styles for specific elements */
+.container-fluid #whyExsolBG {
+  background-color: #eeebe3;
+}
+
+/* Styling for card in Home section */
+.whyExsol {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 38px;
+  font-family: "Berkshire Swash", cursive;
+  font-size: 35px;
+  margin-bottom: 64px;
+}
+
+.whyExsol h2 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.whyExsol .row {
+  margin-bottom: 30px;
+}
+
+.whyExsol .card {
+  flex: 1;
+  margin-right: 20px;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.whyExsol .card:hover {
+  transform: translateY(-5px);
+}
+
+.whyExsol .card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.whyExsol .card-body {
+  padding: 20px;
+}
+
+.whyExsol .card-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #333;
+}
+
+
+
+.getToKnow h2 {
+	margin-top: 38px;
+	font-family: "Berkshire Swash", cursive;
+	font-size: 35px;
+	margin-bottom: 44px;
+  }
+  
+  .getToKnow iframe {
+	height: 135px;
+	width: 240px;
+  }
+  
+  .getToKnow .row img {
+	width: 288px;
+	height: 162px;
+  }
+  
+  .getToKnow .row #shortDescription {
+	margin-top: 48px;
+	font-size: 16px;
+  }
+  
+  .getToKnow .misionVision img {
+	margin: 24px auto 16px auto;
+	border-radius: 100%;
+	width: 88px;
+	height: 88px;
+  }
+  
+  .getToKnow .misionVisionHeader h4 {
+	font-weight: 600;
+  }
+  
+  .getToKnow .misionVisionDetails p {
+	font-size: 14px;
+	margin-bottom: 102px;
+  }
+
+  /* About.css */
+
+/* Container styling */
+.container-fluid.getToKnowBG {
+  background-color: #f7f7f7;
+  padding: 60px 0;
+}
+
+.container.getToKnow {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* Header styling */
+
+
+/* Video section styling */
+.getToKnow iframe {
+  width: 100%;
+  height: 400px;
+  border: none;
+  margin-bottom: 30px;
+}
+
+/* Short description styling */
+#shortDescription p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #666;
+}
+
+/* Mission and Vision section styling */
+.misionVision {
+  margin-top: 50px;
+}
+
+.misionVision img {
+  max-width: 100%;
+  height: auto;
+}
+
+.misionVisionHeader h4 {
+  font-size: 24px;
+  color: #333;
+  margin-top: 20px;
+}
+
+.misionVisionDetails {
+  margin-top: 20px;
+}
+
+.visionText, .misionText {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #666;
+}
+
+/* User data section styling */
+#userData {
+  margin-top: 50px;
+}
+
+.card {
+  background-color: #f2f2f2;
+  box-shadow: 0 0 20px rgba(102, 101, 101, 0.1);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.card-title {
+  font-size: 22px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 16px;
+  color: #a79e9e;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .misionVisionHeader, .misionVisionDetails {
+    flex-direction: column;
+  }
+
+  .misionVisionHeader h4, .misionText {
+    text-align: center;
+    margin-top: 20px;
+  }
+}
+
+.navbar {
+	font-size: 16px;
+	z-index: 1;
+  }
+  
+  #navbar {
+	background-color: transparent;
+  }
+  
+  .navbar img {
+	max-width: 60px;
+	max-height: 60px;
+  }
+  
+  .navbar .navbarRight {
+	margin-right: 32px;
+  }
+    .contact h3 {
+	font-size: 2.5rem;
+	font-weight: 300;
+	color: #151515;
+  }
+  
+  .contact .card-panel {
+	padding: 20px;
+	margin-bottom: 30px;
+	background-color: rgba(255, 255, 255, 0.9);
+	border-radius: 10px;
+  }
+  
+  .contact .card-panel h5 {
+	font-size: 1.5rem;
+	margin-bottom: 20px;
+	color: #333;
+  }
+  
+  .contact .card-panel p {
+	margin-bottom: 10px;
+	color: #333;
+  }
+  
+  .contact .collection {
+	border: none;
+  }
+  
+  .contact .collection .collection-header {
+	background-color: transparent;
+	border-bottom: 2px solid #ddd;
+  }
+  
+  .contact .collection h4 {
+	font-size: 1.2rem;
+	font-weight: 500;
+	margin-bottom: 20px;
+	color: #333;
+  }
+  
+  .contact .collection .collection-item {
+	padding: 10px 0;
+	color: #333;
+  }
+  
+  .contact form {
+	margin-top: 30px;
+  }
+  
+  .contact form .input-field {
+	margin-bottom: 20px;
+  }
+  
+  .contact form .input-field input[type="text"],
+  .contact form .input-field input[type="email"],
+  .contact form .input-field textarea {
+	border: 1px solid #ddd;
+	padding: 10px;
+	width: 100%;
+	border-radius: 5px;
+  }
+  
+  .contact form .input-field input[type="text"]:focus,
+  .contact form .input-field input[type="email"]:focus,
+  .contact form .input-field textarea:focus {
+	border-color: #2196F3;
+	box-shadow: 0 0 5px rgba(33, 150, 243, 0.5);
+  }
+  
+  .contact form .input-field label {
+	color: #666;
+	font-size: 1rem;
+	font-weight: 300;
+	top: -18px;
+  }
+  
+  .contact form .btn {
+	padding: 10px 20px;
+	font-size: 1rem;
+	border-radius: 5px;
+	background-color: #2980b9;
+	color: #fff;
+	border: none;
+  }
+  
+  .contact form .btn:hover {
+	background-color: #1c6cad;
+  }
