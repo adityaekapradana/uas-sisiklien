@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/uas-sisiklien/static/css/main.213c1ffc.css",
+    "main.js": "/uas-sisiklien/static/js/main.e13721ad.js",
+    "static/media/BANJIR1.jpg": "/uas-sisiklien/static/media/BANJIR1.b35dc41e3e52b3ab392d.jpg",
+    "static/media/BANJIR4.jpg": "/uas-sisiklien/static/media/BANJIR4.7cd42b071b573a40c2bb.jpg",
+    "static/media/BANJIR2.jpg": "/uas-sisiklien/static/media/BANJIR2.7aa3ced77dea85e3547c.jpg",
+    "index.html": "/uas-sisiklien/index.html",
+    "main.213c1ffc.css.map": "/uas-sisiklien/static/css/main.213c1ffc.css.map",
+    "main.e13721ad.js.map": "/uas-sisiklien/static/js/main.e13721ad.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.213c1ffc.css",
+    "static/js/main.e13721ad.js"
+  ]
+}
